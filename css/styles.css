@@ -55,6 +55,11 @@ input[type="submit"]{
 input[type=submit]:hover{
   background-color: #45a049;
 }
+img {
+  max-width: 100%;
+  height: auto;
+ }
+ 
 @media (max-width: 768px) {
   #content{
     margin: 50px auto;
