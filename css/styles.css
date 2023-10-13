@@ -5,6 +5,7 @@
   padding: 20px;
   width: 100%;
   box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+  border-radius: 50px;
 
 }
 body{
@@ -68,6 +69,7 @@ img {
   margin-top: 10px;
   max-width: 100%;
   height: auto;
+  border-radius: 50px;
  }
  
 @media (min-width: 768px) {
