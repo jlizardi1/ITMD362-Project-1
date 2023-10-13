@@ -61,7 +61,7 @@ img {
   height: auto;
  }
  
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #content{
     margin: 50px auto;
     padding: 20px;
@@ -75,5 +75,21 @@ img {
   input[type="submit"]{
     font-size: 20px;
   }
-
+}
+@media(min-width:1024px){
+  #content{
+    margin:50px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+  }
+  input[type="text"], input[type="email"], input[type="tel"]{
+    width: 400px; /* Set a fixed width for desktop screens */
+    font-size: 20px;
  }
+ input[type="submit"]{
+  font-size: 22px;
+}
+}
+
+ 
