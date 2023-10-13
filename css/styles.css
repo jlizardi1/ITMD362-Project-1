@@ -87,9 +87,26 @@ img {
     width: 400px; /* Set a fixed width for desktop screens */
     font-size: 20px;
  }
+  input[type="submit"]{
+    font-size: 22px;
+  }
+}
+@media(min-width:1280px){
+  #content{
+    margin:50px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 1000px;
+ }
+ input[type="text"], input[type="email"], input[type="tel"]{
+    width: 500px; 
+    font-size: 22px;
+ }
  input[type="submit"]{
-  font-size: 22px;
+    font-size: 24px;
+ }
 }
-}
+  
+
 
  
