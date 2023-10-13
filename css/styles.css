@@ -28,6 +28,7 @@ h1{
 form{
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 label{
   color: #333;
@@ -51,6 +52,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
 }
 input[type="submit"]{
   background-color: #FFC756;;
+
   color: #333;
   font-family: Jazz LET, fantasy;
   padding: 10px 20px;
@@ -59,7 +61,8 @@ input[type="submit"]{
   cursor: pointer;
   font-size: 18px;
   line-height: 1.2em;
-  align-self: center;
+  position: relative;
+  left: 40%;
 
 }
 input[type=submit]:hover{
