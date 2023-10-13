@@ -62,7 +62,7 @@ input[type="submit"]{
   font-size: 18px;
   line-height: 1.2em;
   position: relative;
-  left: 50%;
+  left: 40%;
 
 }
 input[type=submit]:hover{
