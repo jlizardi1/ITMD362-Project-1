@@ -1,7 +1,6 @@
 jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
-
   document.querySelector('form').addEventListener('submit', function(event) {
     var emailInput = document.querySelector('input[type="email"]');
     var email = emailInput.value;

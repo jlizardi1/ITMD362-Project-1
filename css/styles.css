@@ -48,11 +48,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
   border-radius: 5px;
   font-size: 16px;
   line-height: 1.2em;
-  
 }
 input[type="submit"]{
   background-color: #FFC756;;
-
   color: #333;
   font-family: Jazz LET, fantasy;
   padding: 10px 20px;
@@ -63,7 +61,6 @@ input[type="submit"]{
   line-height: 1.2em;
   position: relative;
   left: 40%;
-
 }
 input[type=submit]:hover{
   background-color: #45a049;
@@ -74,8 +71,7 @@ img {
   height: auto;
   border-radius: 50px;
  }
- 
-@media (min-width: 768px) {
+ @media (min-width: 768px) {
   #content{
     margin: 50px auto;
     padding: 20px;
